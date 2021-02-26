@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  error:
+    includeBindingErrors: ALWAYS
+
+data:
+  url: http://homex-data:8080
+
+jwt:
+  expiration: 600000
+  secret: 3FC5D3C8D03FC2AC2AC3BB0BA2CEB2B33C258CED644FC5798AB6960CAFBAD0A6
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
