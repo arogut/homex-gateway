@@ -26,6 +26,10 @@
         <jwt.version>0.11.2</jwt.version>
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <junit.platform.version>1.6.2</junit.platform.version>
+
+        <sonar.projectKey>arogut_homex-gateway</sonar.projectKey>
+        <sonar.organization>arogut</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
